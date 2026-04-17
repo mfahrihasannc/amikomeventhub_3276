@@ -2,27 +2,32 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Rute Home
-Route::get('/', function () {
-    return view('home');
+// Rute Event
+Route::get('/admin/dashboard', function () {
+    return view('admin.dashboard');
 });
 
-// Rute Profil 
-Route::get('/profil', function () {
-    return view('profil');
-});
+// // Rute Home
+// Route::get('/', function () {
+//     return view('home');
+// });
 
-// Rute Katalog 
-Route::get('/katalog', function () {
-    return view('katalog');
-});
+// // Rute Profil 
+// Route::get('/profil', function () {
+//     return view('profil');
+// });
 
-// Rute Bantuan 
-Route::get('/bantuan', function () {
-    return view('bantuan');
-});
+// // Rute Katalog 
+// Route::get('/katalog', function () {
+//     return view('katalog');
+// });
 
-// Rute Kontak
-Route::get('/kontak', function () {
-    return view('kontak');
-});
+// // Rute Bantuan 
+// Route::get('/bantuan', function () {
+//     return view('bantuan');
+// });
+
+// // Rute Kontak
+// Route::get('/kontak', function () {
+//     return view('kontak');
+// });
