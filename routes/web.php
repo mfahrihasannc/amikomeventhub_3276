@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 // Rute Event
-Route::get('/', function () {
+Route::get('/admin/dasboard', function () {
     return view('admin.dashboard');
 });
 
