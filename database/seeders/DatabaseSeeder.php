@@ -38,13 +38,13 @@ class DatabaseSeeder extends Seeder
         // 3. Insert Sampel Events 
         \App\Models\Event::create([
             'category_id' => $category2->id,
-            'title' => 'Jazz Night 2025',
+            'title' => 'Jazz Night Festival 2026',
             'description' => 'Nikmati  malam  yang  indah  dengan  alunan  musik  jazz yang merdu.',
             'date' => '2026-05-10 19:00:00',
             'location' => 'Amikom Baru',
             'price' => 50000,
             'stock' => 100,
-            'poster_path' => 'posters/event-1.png',
+            'poster_path' => 'posters/concert.png',
         ]);
 
         \App\Models\Event::create([
@@ -55,7 +55,7 @@ class DatabaseSeeder extends Seeder
             'location' => 'Inkubator Amikom',
             'price' => 50000,
             'stock' => 100,
-            'poster_path' => 'posters/event-2.png',
+            'poster_path' => 'posters/hackathon.png',
         ]);
 
         \App\Models\Event::create([
@@ -66,7 +66,7 @@ class DatabaseSeeder extends Seeder
             'location' => 'Cinema Unit 6',
             'price' => 50000,
             'stock' => 100,
-            'poster_path' => 'posters/event-3.png',
+            'poster_path' => 'posters/workshop.png',
         ]);
 
         \App\Models\Event::create([
@@ -77,7 +77,7 @@ class DatabaseSeeder extends Seeder
             'location' => 'Citra 2',
             'price' => 150000,
             'stock' => 50,
-            'poster_path' => 'posters/event-4.png',
+            'poster_path' => 'posters/js.png',
         ]);
 
         \App\Models\Event::create([
@@ -88,18 +88,8 @@ class DatabaseSeeder extends Seeder
             'location' => 'Mandal Krida',
             'price' => 50000,
             'stock' => 150,
-            'poster_path' => 'posters/event-5.png',
+            'poster_path' => 'posters/indie.png',
         ]);
 
-        \App\Models\Event::create([
-            'category_id' => $category2->id,
-            'title' => 'E-Sport U-Champ 2026: Mobile Legends Tournament',
-            'description' => 'Turnamen E-Sport tingkat mahasiswa berskala nasional. Kumpulkan tim terbaik dari kampusmu, rebut total prize pool puluhan juta rupiah, dan buktikan siapa yang pantas menjadi juara!',
-            'date' => '2026-08-15 08:00:00',
-            'location' => 'Aula BSC',
-            'price' => 50000,
-            'stock' => 150,
-            'poster_path' => 'posters/event-6.png',
-        ]);
     }
 }
