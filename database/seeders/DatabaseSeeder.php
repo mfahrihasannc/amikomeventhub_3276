@@ -91,5 +91,9 @@ class DatabaseSeeder extends Seeder
             'poster_path' => 'posters/indie.png',
         ]);
 
+        \App\Models\Partner::create([
+            'name' => 'PT. Trakindo Utama',
+            'logo_url' => 'partners/5LW0XjkdOCfmwTktxEgWBuYpVPpN6n5Gi6TZocnv.jpg'
+        ]);
     }
 }
