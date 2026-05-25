@@ -1,5 +1,10 @@
-M Fahri Hasan Nurcahyadi
-24.12.3276
+## 👤 Identitas Diri
+
+| Identitas | Detail |
+| :--- | :--- |
+| **Nama** | M Fahri Hasan Nurcahyadi |
+| **NIM** | 24.12.3276 |
+
 ## 🗺️ Daftar URL
 
 ### Halaman Publik
