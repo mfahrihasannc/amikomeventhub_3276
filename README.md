@@ -6,7 +6,7 @@ M Fahri Hasan Nurcahyadi
 
 | Halaman | Deskripsi | Link |
 | :--- | :--- | :--- |
-| Home | Halaman utama — menampilkan daftar event | [Kunjungi](https://link-kamu-disini.com) |
+| Home | Halaman utama — menampilkan daftar event | https://amikomeventhub-3276-main-j2cqca.free.laravel.cloud |
 | Kategori | Halaman menampilkan berdasarkan kategori | |
 | About | Halaman Tentang Kami | |
 
@@ -14,7 +14,7 @@ M Fahri Hasan Nurcahyadi
 
 | Halaman | Deskripsi | Link |
 | :--- | :--- | :--- |
-| Dashboard | Dashboard admin dengan ringkasan statistik | [Kunjungi](https://link-kamu-disini.com) |
-| Kelola Event | Daftar semua event | [Kunjungi](https://link-kamu-disini.com) |
-| Kelola Kategori | Daftar semua kategori | [Kunjungi](https://link-kamu-disini.com) |
-| Transaksi | Laporan Transaksi | [Kunjungi](https://link-kamu-disini.com) |
+| Dashboard | Dashboard admin dengan ringkasan statistik | https://amikomeventhub-3276-main-j2cqca.free.laravel.cloud/admin/dashboard |
+| Kelola Event | Daftar semua event | https://amikomeventhub-3276-main-j2cqca.free.laravel.cloud/admin/events |
+| Kelola Kategori | Daftar semua kategori | https://amikomeventhub-3276-main-j2cqca.free.laravel.cloud/admin/categories |
+| Transaksi | Laporan Transaksi | https://amikomeventhub-3276-main-j2cqca.free.laravel.cloud/admin/transactions |
