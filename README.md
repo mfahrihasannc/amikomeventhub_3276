@@ -23,3 +23,9 @@
 | Kelola Event | Daftar semua event | https://amikomeventhub-3276-main-j2cqca.free.laravel.cloud/admin/events |
 | Kelola Kategori | Daftar semua kategori | https://amikomeventhub-3276-main-j2cqca.free.laravel.cloud/admin/categories |
 | Transaksi | Laporan Transaksi | https://amikomeventhub-3276-main-j2cqca.free.laravel.cloud/admin/transactions |
+
+### Hosting InfinityFree
+
+| Halaman | Deskripsi | Link |
+| :--- | :--- | :--- |
+| Amikom event hub | Amikom event hub | http://amikomeventhub-3276.42web.io/ |
