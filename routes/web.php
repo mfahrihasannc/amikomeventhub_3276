@@ -21,6 +21,8 @@ Route::get('/ticket', [TicketController::class, 'index'])->name('ticket');
 // Rute Checkout 
 Route::get('/checkout/{event}', [CheckoutController::class, 'create'])->name('checkout.create');
 Route::post('/checkout/{event}', [CheckoutController::class, 'store'])->name('checkout.store');
+Route::get('/payment/{order_id}', [CheckoutController::class, 'payment'])->name('checkout.payment');
+Route::get('/success/{order_id}', [CheckoutController::class, 'success'])->name('checkout.success');
 
 // --- Rute Admin Area ---
 Route::get('/login', function () {
@@ -36,16 +38,16 @@ Route::prefix('admin')->name('admin.')->group(function () {
 
     // Mengamankan Route Administrasi di balik tembok (Middleware)
     Route::middleware(['auth', 'admin'])->group(function () {
-        
+
         Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
-        
+
         Route::resource('events', AdminEventController::class);
-        
+
         // Memanggil rute Transaksi 
         Route::get('transactions', [AdminTransactionsController::class, 'index'])->name('transactions.index');
-        
+
         Route::resource('categories', AdminCategoriesController::class);
-        
+
         Route::resource('partners', AdminPartnerController::class);
     });
 });
